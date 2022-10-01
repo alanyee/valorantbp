@@ -1,6 +1,7 @@
 # Contributing to valorantbp
-    When contributing to the development of Endeavour, please first discuss the change you wish to make via issue, email, or any other method with the maintainers before making a change.
-    Please note we have a [Code of Conduct](), please follow it in all your interactions with the project.
+    
+When contributing to the development of Endeavour, please first discuss the change you wish to make via issue, email, or any other method with the maintainers before making a change.
+Please note we have a [Code of Conduct](), please follow it in all your interactions with the project.
 ## Standard Commit Messages
 
 This project is using the [conventional commits](https://www.conventionalcommits.org/en/v1.0.0-beta.2/) standard. Please follow these steps to ensure your commit messages are standardized:
