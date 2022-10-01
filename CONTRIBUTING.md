@@ -8,7 +8,7 @@ This project is using the [conventional commits](https://www.conventionalcommits
 
   - Commit messages should have this format: `<type>[optional scope]: <description>`
   - Type must be one of the following:
-    * **docs**: Chnages made in documentation
+    * **docs**: Changes made in documentation
     * **feat**: If you have added a new feature
     * **style**: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
   - Scope should be `ui` or `global`
