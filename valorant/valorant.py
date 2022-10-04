@@ -33,19 +33,20 @@ def battle_pass(n, epilogue=5, increase=750, start=500, tier1=1250):
 
 def _parse_args():
     parser = argparse.ArgumentParser(description='Track Valorant BattlePass')
-    parser.add_argument('-e', '--epilogue', type=int,
+    battlepass = parser.add_argument_group('battlepass', 'Directly updates individual settings for tracking the battlepass')
+    battlepass.add_argument('-e', '--epilogue', type=int,
                         help='Current epilogue in progress')
-    parser.add_argument('-c', '--current', type=int,
+    battlepass.add_argument('-c', '--current', type=int,
                         help='Current exp progress in current tier')
-    parser.add_argument('-d', '--days', type=int,
+    battlepass.add_argument('-d', '--days', type=int,
                         help='How many days are left in the battlepass')
-    parser.add_argument('-w', '--week', type=int,
+    battlepass.add_argument('-w', '--week', type=int,
                         help='Current week of weekly missions in progress')
-    parser.add_argument('-m', '--mission', type=int,
+    battlepass.add_argument('-m', '--mission', type=int,
                         help='Number of current weekly missions left in current week')
-    parser.add_argument('-t', '--tier', type=int,
+    battlepass.add_argument('-t', '--tier', type=int,
                         help='Current completed tier in battlepass')
-    parser.add_argument('--edays', type=int, help='How many days left in event battlepass')
+    battlepass.add_argument('--edays', type=int, help='How many days left in event battlepass')
     parser.add_argument('--event', action='store_true', help='Track event progress')
     parser.add_argument('--reset', action='store_true', help='Reset tracker progress')
     parser.add_argument('--show', action='store_true', help='Show current tracker config')

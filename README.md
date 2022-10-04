@@ -6,13 +6,21 @@ It calculates how much exp you can expect to gain, how much exp is left in the b
 ## usage
 
 ```text
-usage: valorantbp [-h] [-e EPILOGUE] [-c CURRENT] [-d DAYS] [-w WEEK] [-m MISSION] [-t TIER] [--edays EDAYS] [--event]
-                  [--reset] [--show] [--before]
+usage: valorantbp [-h] [-e EPILOGUE] [-c CURRENT] [-d DAYS] [-w WEEK] [-m MISSION] [-t TIER] [--edays EDAYS]
+                   [--event] [--reset] [--show] [--before]
 
 Track Valorant BattlePass
 
 options:
   -h, --help            show this help message and exit
+  --event               Track event progress
+  --reset               Reset tracker progress
+  --show                Show current tracker config
+  --before              Show previous tracker event progress before update
+
+battlepass:
+  Directly updates individual settings for tracking the battlepass
+
   -e EPILOGUE, --epilogue EPILOGUE
                         Current epilogue in progress
   -c CURRENT, --current CURRENT
@@ -23,10 +31,6 @@ options:
                         Number of current weekly missions left in current week
   -t TIER, --tier TIER  Current completed tier in battlepass
   --edays EDAYS         How many days left in event battlepass
-  --event               Track event progress
-  --reset               Reset tracker progress
-  --show                Show current tracker config
-  --before              Show previous tracker event progress before update
  ```
 
 ## Examples
