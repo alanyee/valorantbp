@@ -6,7 +6,7 @@ It calculates how much exp you can expect to gain, how much exp is left in the b
 ## usage
 
 ```text
-usage: valorant.py [-h] [-e EPILOGUE] [-c CURRENT] [-d DAYS] [-w WEEK] [-m MISSION] [-t TIER] [--edays EDAYS]
+usage: valorantbp [-h] [-e EPILOGUE] [-c CURRENT] [-d DAYS] [-w WEEK] [-m MISSION] [-t TIER] [--edays EDAYS]
                    [--event] [--reset] [--show] [--before]
 
 Track Valorant BattlePass
