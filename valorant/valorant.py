@@ -8,13 +8,13 @@ WEEKS = [15120, 15120, 16800, 21840, 21840, 25200, 25200, 26880]
 DEFAULT = {
     "epilogue": 0,
     "current": 0,
-    "days": 55, # Episode 5 Act 2
+    "days": 55,  # Episode 5 Act 2
     "week": 0,
     "mission": 3,
-    "tier": 1
+    "tier": 1,
 }
 EDAYS = DEFAULT["days"] - 26
-CACHE = os.path.expanduser('~/.valorant.json')
+CACHE = os.path.expanduser("~/.valorant.json")
 
 
 def estimate(week=DEFAULT["week"], current=3, days=DEFAULT["days"], end=len(WEEKS)):
@@ -99,10 +99,10 @@ def _read_progress(args):
 def update_progress(args, progress):
     """Update progress for tracker"""
     if not progress.is_file() or args.reset:
-        with open(CACHE, 'w') as outfile:
+        with open(CACHE, "w") as outfile:
             json.dump(DEFAULT, outfile)
     data = _read_progress(args)
-    with open(CACHE, 'w') as outfile:
+    with open(CACHE, "w") as outfile:
         json.dump(data, outfile)
     return data
 
@@ -120,7 +120,7 @@ def _print_progress(args, data):
     print("Progress to work on:", bp - est)
     if args.event:
         event_est = estimate(
-          data["week"], data["mission"], max(0, data["days"] - EDAYS), 3
+            data["week"], data["mission"], max(0, data["days"] - EDAYS), 3
         )
         print("Expected event exp to gain:", event_est)
         event_bp = EVENT - current
