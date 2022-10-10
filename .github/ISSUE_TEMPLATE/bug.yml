@@ -1,5 +1,5 @@
 name: 🐛 Bug Report
-description: A report of an error in a recent systemd version
+description: A report of an error in a recent version
 labels: ["bug"]
 
 body:
