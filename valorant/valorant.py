@@ -1,8 +1,8 @@
 import argparse
 import json
 import os
-from pathlib import Path
 from importlib.metadata import version
+from pathlib import Path
 
 EVENT = 131700  # champions pass
 WEEKS = [15120, 15120, 16800, 21840, 21840, 25200, 25200, 26880]
