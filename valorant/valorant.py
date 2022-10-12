@@ -2,6 +2,7 @@ import argparse
 import json
 import os
 from pathlib import Path
+from importlib.metadata import version
 
 EVENT = 131700  # champions pass
 WEEKS = [15120, 15120, 16800, 21840, 21840, 25200, 25200, 26880]
@@ -36,6 +37,7 @@ def battle_pass(n, epilogue=5, increase=750, start=500, tier1=1250):
 
 def _parse_args():
     parser = argparse.ArgumentParser(description="Track Valorant BattlePass")
+    parser.add_argument('--version', action='version', version=get_version())
     battlepass = parser.add_argument_group(
         "battlepass", "Directly updates individual settings for tracking the battlepass"
     )
@@ -75,6 +77,8 @@ def _parse_args():
     )
     return parser.parse_args()
 
+def get_version():
+    return '%(prog)s {version}'.format(version=version('valorantbp'))
 
 def _read_progress(args):
     with open(CACHE) as json_file:
