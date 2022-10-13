@@ -6,13 +6,14 @@ It calculates how much exp you can expect to gain, how much exp is left in the b
 ## usage
 
 ```text
-usage: valorantbp [-h] [-e EPILOGUE] [-c CURRENT] [-d DAYS] [-w WEEK] [-m MISSION] [-t TIER] [--edays EDAYS]
-                   [--event] [--reset] [--show] [--before]
+usage: valorantbp [-h] [--version] [-e EPILOGUE] [-c CURRENT] [-d DAYS] [-w WEEK] [-m MISSION] [-t TIER]
+                  [--edays EDAYS] [--event] [--reset] [--show] [--before]
 
 Track Valorant BattlePass
 
 options:
   -h, --help            show this help message and exit
+  --version             show program's version number and exit
   --event               Track event progress
   --reset               Reset tracker progress
   --show                Show current tracker config
