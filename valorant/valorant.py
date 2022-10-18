@@ -4,17 +4,17 @@ import os
 from importlib.metadata import version
 from pathlib import Path
 
-EVENT = 131700  # champions pass
-WEEKS = [15120, 15120, 16800, 21840, 21840, 25200, 25200, 26880]
+EVENT = 0  # no event this act
+WEEKS = [7200, 7200, 9600, 9600, 9600, 9600, 10800, 10800, 10800, 10800, 12000, 12000]
 DEFAULT = {
     "epilogue": 0,
     "current": 0,
-    "days": 55,  # Episode 5 Act 2
+    "days": 83,  # Episode 5 Act 3
     "week": 0,
     "mission": 3,
     "tier": 1,
 }
-EDAYS = DEFAULT["days"] - 26
+EDAYS = DEFAULT["days"]
 CACHE = os.path.expanduser("~/.valorant.json")
 
 
