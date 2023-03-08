@@ -5,11 +5,11 @@ from importlib.metadata import version
 from pathlib import Path
 
 EVENT = 0  # no event this act
-WEEKS = [15400, 15400, 16800, 16800, 18200, 18200, 19600, 19600]
+WEEKS = [20930, 20930, 22540, 22540, 24150, 24150, 25760]
 DEFAULT = {
     "epilogue": 0,
     "current": 0,
-    "days": 55,  # Episode 6 Act 1
+    "days": 48,  # Episode 6 Act 2
     "week": 0,
     "mission": 3,
     "tier": 1,
