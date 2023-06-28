@@ -1,6 +1,6 @@
 # valorantbp
 
-I used this [video](https://www.youtube.com/watch?v=tM7Gv22yr-0) as the basis for how much points you can get daily if you played efficiently each day.
+I used this [video](https://www.youtube.com/watch?v=0RxYsb4Rtbw) as the basis for how much points you can get daily if you played efficiently each day.
 It calculates how much exp you can expect to gain, how much exp is left in the battlepass, and how much additional exp is needed to close out the bp.
 
 ## usage
