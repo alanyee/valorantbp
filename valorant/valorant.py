@@ -5,11 +5,21 @@ from importlib.metadata import version
 from pathlib import Path
 
 EVENT = 0  # no event this act
-WEEKS = [13770, 15300, 16830, 16830, 16830, 18360, 18360, 18360, 18360]
+WEEKS = [
+    12960,
+    14400,
+    15840,
+    15840,
+    15840,
+    17280,
+    17280,
+    17280,
+    17280,
+]  # credit to @Shiick
 DEFAULT = {
     "epilogue": 0,
     "current": 0,
-    "days": 62,  # Episode 6 Act 3
+    "days": 62,  # Episode 7 Act 1
     "week": 0,
     "mission": 3,
     "tier": 1,
@@ -27,7 +37,7 @@ def estimate(week=DEFAULT["week"], current=3, days=DEFAULT["days"], end=len(WEEK
         else:
             weeks += 3 * WEEKS[i]
 
-    return weeks + days * 5000
+    return weeks + days * 8000
 
 
 def battle_pass(n, epilogue=5, increase=750, start=500, tier1=1250):
