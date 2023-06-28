@@ -37,7 +37,7 @@ def estimate(week=DEFAULT["week"], current=3, days=DEFAULT["days"], end=len(WEEK
         else:
             weeks += 3 * WEEKS[i]
 
-    return weeks + days * 8000
+    return weeks + days * 12000
 
 
 def battle_pass(n, epilogue=5, increase=750, start=500, tier1=1250):
