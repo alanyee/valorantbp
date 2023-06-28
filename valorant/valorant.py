@@ -5,7 +5,8 @@ from importlib.metadata import version
 from pathlib import Path
 
 EVENT = 0  # no event this act
-WEEKS = [12960,
+WEEKS = [
+    12960,
     14400,
     15840,
     15840,
@@ -13,8 +14,8 @@ WEEKS = [12960,
     17280,
     17280,
     17280,
-    17280
-] # credit to @Shiick
+    17280,
+]  # credit to @Shiick
 DEFAULT = {
     "epilogue": 0,
     "current": 0,
