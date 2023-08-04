@@ -4,7 +4,7 @@ import os
 from importlib.metadata import version
 from pathlib import Path
 
-EVENT = 0  # no event this act
+EVENT = 90400  # Champions 2023 Event Pass
 WEEKS = [
     12960,
     14400,
