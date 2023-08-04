@@ -5,7 +5,7 @@ from importlib.metadata import version
 from pathlib import Path
 
 EVENT = 90400  # Champions 2023 Event Pass
-EDAYS = 0 # Champions 2023 Event Pass
+EDAYS = 0  # Champions 2023 Event Pass
 WEEKS = [
     12960,
     14400,
