@@ -5,6 +5,7 @@ from importlib.metadata import version
 from pathlib import Path
 
 EVENT = 90400  # Champions 2023 Event Pass
+EDAYS = 0  # Champions 2023 Event Pass
 WEEKS = [
     12960,
     14400,
@@ -24,7 +25,6 @@ DEFAULT = {
     "mission": 3,
     "tier": 1,
 }
-EDAYS = DEFAULT["days"]
 CACHE = os.path.expanduser("~/.valorant.json")
 
 
@@ -136,7 +136,7 @@ def _print_progress(args, data):
     print("Progress to work on:", bp - est)
     if args.event:
         event_est = estimate(
-            data["week"], data["mission"], max(0, data["days"] - EDAYS), 3
+            data["week"], data["mission"], max(0, data["days"] - EDAYS)
         )
         print("Expected event exp to gain:", event_est)
         event_bp = EVENT - current
