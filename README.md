@@ -78,4 +78,4 @@ battlepass:
 
 1. Can I complete the battlepass if I play efficiently i.e. only playing to the daily and weekly missions?
 
-Unfortunately, no. Outside of daily missions and weekly missions, the battlepass does expect you to play some additional games if you wish to complete it.
+As of Episode 7, you now can. Valorant has replaced its daily missions with a daily counter: you need to win 16 rounds (from unrated, comp, or swiftplay) and/or play 8 matches (in spike rush or TDM) to complete your dailies now. That results in a daily 12,000 exp in the battlepass which usually helps complete the battlepass if you are diligent from day one.
