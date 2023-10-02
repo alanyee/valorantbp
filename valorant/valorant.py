@@ -20,7 +20,7 @@ WEEKS = [
 DEFAULT = {
     "epilogue": 0,
     "current": 0,
-    "days": 62,  # Episode 7 Act 1
+    "days": 62,  # Episode 7 Act 2
     "week": 0,
     "mission": 3,
     "tier": 1,
