@@ -104,12 +104,19 @@ def _read_progress(args):
     if args.week is not None:
         data["week"] = args.week
     if args.mission is not None:
-        data["mission"] = args.mission
+        if args.mission == 0:
+            if args.week is None:
+                # Increment week if mission is set to 0 and week is not explicitly set
+                data["week"] += 1
+            data["mission"] = 3  # Reset mission value to 3
+        else:
+            data["mission"] = args.mission
     if args.tier is not None:
         data["tier"] = args.tier
     if args.edays is not None:
         data["edays"] = args.edays
     return data
+
 
 
 def update_progress(args, progress):
