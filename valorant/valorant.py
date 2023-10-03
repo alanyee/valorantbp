@@ -118,7 +118,6 @@ def _read_progress(args):
     return data
 
 
-
 def update_progress(args, progress):
     """Update progress for tracker"""
     if not progress.is_file() or args.reset:
