@@ -10,7 +10,7 @@ This project is using the [Conventional Commits](https://www.conventionalcommits
 - Type must be one of the following:
   * **docs**: Changes made in documentation
   * **feat**: If you have added a new feature
-  * **style**: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
+  * **style**: Changes that do not affect the meaning of the code (whitespace, formatting, missing semi-colons, etc)
 - Scope should be `ui` or `global`
 - Example: `feat(ui): added image gallery`
 
