@@ -5,7 +5,7 @@ from importlib.metadata import version
 from pathlib import Path
 
 EVENT = 105700  # 2023 Horizons Event Pass
-EDAYS = 42 # 2023 Horizons Event Pass
+EDAYS = 42  # 2023 Horizons Event Pass
 WEEKS = [
     12800,
     12800,
