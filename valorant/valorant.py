@@ -4,23 +4,23 @@ import os
 from importlib.metadata import version
 from pathlib import Path
 
-EVENT = 90400  # Champions 2023 Event Pass
-EDAYS = 0  # Champions 2023 Event Pass
+EVENT = 105700  # 2023 Horizons Event Pass
+EDAYS = 42  # 2023 Horizons Event Pass
 WEEKS = [
-    12960,
+    12800,
+    12800,
     14400,
-    15840,
-    15840,
-    15840,
-    17280,
-    17280,
-    17280,
-    17280,
+    14400,
+    17600,
+    17600,
+    17600,
+    17600,
+    17600,
 ]  # credit to @Shiick
 DEFAULT = {
     "epilogue": 0,
     "current": 0,
-    "days": 62,  # Episode 7 Act 2
+    "days": 69,  # Episode 7 Act 3
     "week": 0,
     "mission": 3,
     "tier": 1,
