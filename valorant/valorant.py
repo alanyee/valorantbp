@@ -7,20 +7,19 @@ from pathlib import Path
 EVENT = 105700  # 2023 Horizons Event Pass
 EDAYS = 42  # 2023 Horizons Event Pass
 WEEKS = [
-    12800,
-    12800,
-    14400,
-    14400,
-    17600,
-    17600,
-    17600,
-    17600,
-    17600,
+    14720,
+    16560,
+    22080,
+    23920,
+    25670,
+    25670,
+    27600,
+    27600,
 ]  # credit to @Shiick
 DEFAULT = {
     "epilogue": 0,
     "current": 0,
-    "days": 69,  # Episode 7 Act 3
+    "days": 55,  # Episode 8 Act 1
     "week": 0,
     "mission": 3,
     "tier": 1,
