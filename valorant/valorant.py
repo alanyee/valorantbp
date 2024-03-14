@@ -8,18 +8,18 @@ EVENT = 105700  # 2023 Horizons Event Pass
 EDAYS = 42  # 2023 Horizons Event Pass
 WEEKS = [
     14720,
-    16560,
+    18400,
+    20240,
     22080,
-    23920,
     25670,
     25670,
     27600,
-    27600,
+    29440,
 ]  # credit to @Shiick
 DEFAULT = {
     "epilogue": 0,
     "current": 0,
-    "days": 55,  # Episode 8 Act 1
+    "days": 56,  # Episode 8 Act 2
     "week": 0,
     "mission": 3,
     "tier": 1,
